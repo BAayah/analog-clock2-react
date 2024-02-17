@@ -1,0 +1,2 @@
+.clock{background-color:#fff8c5;border:2px solid #80765d;border-radius:50%;height:100px;position:relative;width:100px}.hand{background-color:#000;height:50%;left:50%;position:absolute;top:0;transform-origin:bottom;width:1px}.seconds{background-color:#e86469}.hours{height:40%;left:calc(50% - 1px);top:10%;width:2px}.number-container{font-size:.75rem;height:50%;left:calc(50% - 6px);position:absolute;text-align:center;top:0;transform-origin:bottom;width:12px}
+/*# sourceMappingURL=main.548b7ae6.css.map*/
