@@ -1,0 +1,40 @@
+.clock {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #80765D;
+    background-color: #FFF8C5;
+    position: relative;
+  }
+  
+  .hand {
+    width: 1px;
+    height: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform-origin: bottom;
+  }
+  
+  .seconds {
+    background-color: #E86469;
+  }
+  
+  .hours {
+    width: 2px;
+    height: 40%;
+    top: 10%;
+    left: calc(50% - 1px)
+  }
+  
+  .number-container {
+    height: 50%;
+    width: 12px;
+    position: absolute;
+    top: 0%;
+    left: calc(50% - 6px);
+    transform-origin: bottom;
+    text-align: center;
+    font-size: 0.75rem;
+  }
